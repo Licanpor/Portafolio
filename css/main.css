@@ -1,0 +1,153 @@
+
+video {
+    background-size: cover;
+    bottom: 0;
+    height: auto;
+    min-height: 100%;
+    min-width: 100%;
+    position: fixed;
+    right: 0;
+    width: auto;
+    z-index: -1;
+}
+h1{
+	position: absolute;
+	z-index: 100;
+}
+a{
+	text-decoration: none;
+
+}
+.tnspt{
+	background-color: white;
+	opacity: .4;
+}
+.txt-g{
+	color:gray;
+}
+.txt-w, .bg-g, #info{
+	color:white;
+}
+.pd-i{
+	padding: 3% 9%;
+}
+.pd{
+	padding: 0 !important;
+}
+.img-s{
+	
+}
+/*#bg-img{
+	background-image: url("../img/prismas.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	/*background-position: center;
+	max-width: 100%;
+	max-height:500px;
+}
+#bg-img{
+	padding: 10% 28% 
+}*/
+footer, .bg{
+	padding: 3% 30%
+}
+hr{
+	width: 15px;
+}
+.hr-r{
+	border: 2px solid #32c931;
+}
+.hr-w{
+	border: 2px solid #32c931;
+}
+.bg{
+	background-color: #d9534f;
+}
+.bg-g{
+	background-color: #2E2E2E;
+	padding: 3% 10%;
+	font-size: 1.5em;
+}
+#img1, #img2, #img3, #img4, #img5, #img6, #info{
+	height: 15em;
+	background-size: cover;
+}
+#img1{
+	background-image: url("../img/1.jpg");
+}
+#img2{
+	background-image: url("../img/2.jpg");
+}
+#img3{
+	background-image: url("../img/3.jpg");
+}
+#img4{
+	background-image: url("../img/4.jpg");
+}
+#img5{
+	background-image: url("../img/5.jpg");
+}
+#img6{
+	background-image: url("../img/6.jpg");
+}
+#info{
+	background-color: rgba(250,88,88,0.9);/*#d9534f;*/
+	opacity:0;
+	-webkit-transition:opacity:0.2s;
+	padding: 20%;
+}
+#img1:hover #info, #img2:hover #info, #img3:hover #info, #img4:hover #info, #img5:hover #info, #img6:hover #info{
+	opacity:0.7;
+}
+@media screen and (max-width:768px){
+	#bg-img, .bg, footer {
+		padding: 8% 10%;
+	}
+	.bg-g{
+		padding: 4% 5%;
+		/*font-size: 40px;*/
+	}
+}
+
+/*VIDEO BACKGROUND*/
+.homepage-hero-module {
+    border-right: none;
+    border-left: none;
+    position: relative;
+}
+.no-video .video-container video,
+.touch .video-container video {
+    display: none;
+}
+.no-video .video-container .poster,
+.touch .video-container .poster {
+    display: block !important;
+}
+.video-container {
+    position: relative;
+    bottom: 0%;
+    left: 0%;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    background: #000;
+}
+.video-container .poster img {
+    width: 100%;
+    bottom: 0;
+    position: absolute;
+}
+.video-container .filter {
+    z-index: 100;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+.video-container video {
+    position: absolute;
+    z-index: 0;
+    bottom: 0;
+}
+.video-container video.fillWidth {
+    width: 100%;
+}

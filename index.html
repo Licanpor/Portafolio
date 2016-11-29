@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8"> <!-- Me sirve para colocar acentos y otros caracteres especiales -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Hace que mi página sea compatible con Internet Explorer -->
+		<!-- VIEWPORT - Cuando estamos hablando de dispositivos móviles, no corresponde al tamaño real de la pantalla en píxeles, sino al espacio que la pantalla está emulando que tiene 
+			- "device-width", que es una medida que hace referencia a la anchura de la pantalla del dispositivo, así que con width=device-width conseguimos que el viewport sea igual a la anchura real de la pantalla del dispositivo, de modo que no se tratará de emular una pantalla mayor de lo que realmente es y veremos los píxeles reales.
+			- Con initial-scale=1 conseguimos que no se haga zoom sobre el documento. Es bien simple, el contenido de la web no se transformará, ni se agrandará, ni se hará menor.-->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Portfolio</title> <!-- Iniciando  -->
+		<link rel="shortcut icon" href=""> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
+		<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" media="screen">
+		<link rel="stylesheet" href="css/index.css">
+		<link rel="stylesheet" href="css/fonts.css">
+		<link rel="stylesheet" href="css/queries.css">
+		<link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat|Roboto+Condensed:300,400,700" rel="stylesheet">
+	</head>
+	<body >
+		<header id="menu">
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col-xs-4 col-sm-4 col-md-4">
+						<div class="menu_bar">
+							<a href="#" class="bt-menu"><h4><span class="icon-menu"><b class="hidden-xs hidden-sm">MENU</b></span></h4></a>
+						</div>
+			 			<nav>
+							<ul id="listaMenu">
+								<li><a href="#">INICIO</a></li>
+								<li><a href="#sobreMi">SOBRE MI</a></li>
+								<li><a href="#skills">HABILIDADES</a></li>
+								<li><a href="#proyectos">PROYECTOS</a></li>
+							</ul>
+						</nav>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 text-center">
+						<a id="nombre" href="#"><h4>LILIANA CANEDO</h4></a 	>
+					</div>
+					<div class="col-xs-4 col-sm-4 col-md-4 text-right">
+						<ul id="redes">
+							<li id="mail"><h4><a href="mailto:liliana.canpor@gmail.com" ><span class="icon-envelop"></span></a></h4></li>
+							<li id="phone"><h4><a href=""><span class="icon-phone"></span></a></h4></li>
+							<li id="gh"><h4><a href="https://github.com/LilianaCanPor"><span class="icon-github"></span></a></h4></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</header>
+		<div class="container-fluid">
+			<section id="front">
+				<div class="row bg-img">
+					<div class="col-md-12 text-right">
+						<div class="front-text">
+							<blockquote class="blockquote-reverse">
+						 		<h3>Gracias a la tecnología el poder individual es mayor que nunca. Una sola persona puede cambiar la industria. Una sola persona puede reinventar la sociedad, los medios o la ciencia.</h3>
+						  		<footer>Franz De Paula</footer>
+						  		<h4>...Imagínate lo que podemos hacer juntos.</h4>
+							</blockquote>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<section id="sobreMi">
+			<div class="container">
+				<div class="row"> 
+					<div class="col-1 col-sm-12 col-md-6">
+						<h1>DISEÑADORA WEB </h1>
+						<h3>FRONT-END</h3>
+						<h4>Emprendedora de ideas, mente creativa, apasionada en hacer que las personas tengan grandes experiencias a través del diseño web y productos tecnológicos.</h4>
+					</div>
+					<div class="col-2 col-sm-12 col-md-6">
+						<h5 class="bdr-g center-block">SOBRE Mí</h5>
+						<p class="text-justify">Morelia, Michoacán es mi cuna, CDMX mi emprendimiento y mi futuro el Mundo. Soy nómada de nacimiento y el aprendizaje es el alimento de mi mente. 
+						</p>
+						<!-- <p>Creo en el poder de la transformación y en la importancia de reinventar nuestra realidad empezando por nosotros mismos. </p> -->
+						<p class="text-justify">A través del teatro, la música y la danza encontré una medicina y mi necesitad de evolucionar. En la tecnología encontré la herramienta para desarrollar productos que beneficien a las personas, satisfaciendo sus necesidades, expandiendo sus conciencias para construir mejores realciones entre ellas, la tecnología y el planeta.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="design"><!-- LINEA DE DISEÑO --></section>
+		<section id="skills">	
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h5 class="bdr-g-s center-block">MIS HABILIDADES</h5>
+						<blockquote class="blockquote-reverse">
+							<h4>Tanto si crees que puedes como que no... tienes razón</h4>
+							<footer>Henry Ford</footer>
+						</blockquote>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-12">
+						<h5>HTML, CSS, Bootstrap</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							INTERMEDIO
+							</div>
+						</div>
+						<h5>JavaScript, Jquery, Git</h5>
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
+							BáSICO
+							</div>
+						</div>
+
+						<div class="text-center">
+							<a type="button" href="pdf/CV.LCP.pdf" class="btn btn-success " download="LilianaCanedo.CV">Descarga mi CV</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="proyectos">
+			<div class="container">
+				<div class="row">
+					<h5 class="bdr-g-p center-block">MIS PROYECTOS</h5>
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="img-kane"><!-- IMAGEN DE FONDO -->
+								<div id="info">
+									<span><p class="text-uppercase"><b>kane theme</b></p></span>
+									<span><p>Lorem ipsum dolor sit amet. </p></span>
+									<a href="https://lilianacanpor.github.io/34_KaneTheme" target="_blank">VER MáS</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="img-bussines"><!-- IMAGEN DE FONDO -->
+								<div id="info">
+									<span><p class="text-uppercase"><b>user testing</b></p></span>
+									<span><p>Lorem ipsum dolor sit amet.</p></span>
+									<a href="https://lilianacanpor.github.io/29_Business/" target="_blank">VER MáS</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="img-bicis"><!-- IMAGEN DE FONDO -->
+								<div id="info">
+									<span><p class="text-uppercase"><b>bicis locas</b></p></span>
+									<span><p>Lorem ipsum dolor sit amet.</p></span>
+									<a href="https://lilianacanpor.github.io/39_DOM_II/" target="_blank">VER MáS</a>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="img-combo"><!-- IMAGEN DE FONDO -->
+								<div id="info">
+									<span><p class="text-uppercase"><b>combo de la reactivación</b></p></span>
+									<span><p>Lorem ipsum dolor sit amet.</p></span>
+									<a href="https://www.comboreactivacion.com/" target="_blank">VER MáS</a>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer id="footer">
+			<h6> Diseñado por Liliana Canedo, Laboratoria México 2016</h6>
+	 	</footer>
+	 	
+	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+		<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+		<script src="js/scripts.js"></script>
+	</body>
+</html>

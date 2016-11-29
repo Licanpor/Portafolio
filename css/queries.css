@@ -1,0 +1,264 @@
+/* SCREEN +480px height (SMALL HANDHELD LANDSCAPE)
+   ========================================================================== */
+@media only screen and (max-height: 30rem) {
+	
+	.bg-img blockquote {
+		margin-top: 65px;
+	} 
+	.bg-img blockquote h3{
+		font-size: .8em;
+		color: rgba(255,255,255,1);
+	}
+	.bg-img blockquote h4{
+		font-size: .6em;
+		color: rgba(255,255,255,1);
+	}
+	#front .front-text{
+	margin-left: 3%;
+	}
+	#sobreMi .col-2{
+		margin-top: 8%;
+	}
+	#skils blockquote h4{
+		font-size: .6em;
+	}
+	#listaMenu{
+		font-size: .7em;
+	}
+
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+
+/* SCREEN +480px width (SMALL HANDHELD PORTRAIT)
+   ========================================================================== */
+@media only screen and (max-width: 30rem) {
+	.bg-img blockquote {
+		margin-top: 95px;
+	}
+	.bg-img blockquote h3{
+		font-size: .8em;
+		color: rgba(255,255,255,1);
+	}
+	.bg-img blockquote h4{
+		font-size: .6em;
+		color: rgba(255,255,255,1);
+	}
+	#front .front-text{
+		margin-left: 1%;
+	}
+	.bg-img .col-md-12{
+		padding: 0 !important;
+	}
+	#sobreMi .col-2{
+		margin-top: 8%;
+	}
+	#skils blockquote h4{
+		font-size: .6em;
+	}
+	#listaMenu{
+		font-size: .7em;
+	}
+
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+
+/* SCREEN +656px width / +1024px height (TABLET PORTRAIT)
+   ========================================================================== */
+@media only screen and (min-width: 41rem) and (min-height: 64rem) {
+	
+.bg-img blockquote h3{
+		font-size: .8em;
+		color: rgba(255,255,255,1);
+	}
+	.bg-img blockquote h4{
+		font-size: .7em;
+		color: rgba(255,255,255,1);
+	}
+	#skills blockquote h4{
+		font-size: .7em;
+	}
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+/* SCREEN +1024px width / +656px height (TABLET LANDSCAPE)
+   ========================================================================== */
+@media only screen and (min-width: 64rem) and (min-height: 41rem) {
+	
+	
+
+
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* SCREEN +1280px width (13'+ DESKTOP)
+   ========================================================================== */
+@media only screen and (min-width: 80rem) {
+
+/* GENERAL 
+* --------------------------------------- */
+
+
+/* LAYOUT 
+* --------------------------------------- */
+
+
+/* EXTERNAL
+* --------------------------------------- */
+
+} /*MEDIA
+ ========================================================================== */
+ 
+ 
+
+
+
+/* RETINA +480px height (SMALL HANDHELD)
+   ========================================================================== */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-height: 30rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-height: 30rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-height: 30rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-height: 30rem),
+only screen and (                min-resolution: 192dpi) and (min-height: 30rem),
+only screen and (                min-resolution: 2dppx)  and (min-height: 30rem) { 
+
+/* GENERAL 
+* --------------------------------------- */
+
+
+/* LAYOUT 
+* --------------------------------------- */
+
+
+/* EXTERNAL
+* --------------------------------------- */
+
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+
+/* RETINA +480px width (SMALL HANDHELD)
+   ========================================================================== */
+@media
+only screen and (-webkit-min-device-pixel-ratio: 2)      and (min-width: 30rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 30rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 30rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 30rem),
+only screen and (                min-resolution: 192dpi) and (min-width: 30rem),
+only screen and (                min-resolution: 2dppx)  and (min-width: 30rem) { 
+
+/* GENERAL 
+* --------------------------------------- */
+
+
+/* LAYOUT 
+* --------------------------------------- */
+
+
+/* EXTERNAL
+* --------------------------------------- */
+
+} /*MEDIA
+ ========================================================================== */
+ 
+ 
+ 
+ 
+ 
+/* RETINA +1024px width / +480 height (TABLET LANDSCAPE)
+   ========================================================================== */
+@media
+(only screen and (-webkit-min-device-pixel-ratio: 2)     and (min-width: 64rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 64rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 64rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 64rem),
+only screen and (                min-resolution: 192dpi) and (min-width: 64rem),
+only screen and (                min-resolution: 2dppx)  and (min-width: 64rem))
+and
+(only screen and (-webkit-min-device-pixel-ratio: 2)     and (min-height: 30rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-height: 30rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-height: 30rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-height: 30rem),
+only screen and (                min-resolution: 192dpi) and (min-height: 30rem),
+only screen and (                min-resolution: 2dppx)  and (min-height: 30rem)) { 
+ 
+/* GENERAL 
+* --------------------------------------- */
+
+ 
+/* LAYOUT 
+* --------------------------------------- */
+ 
+
+/* EXTERNAL
+* --------------------------------------- */
+ 
+} /*MEDIA
+ ========================================================================== */
+
+
+
+
+
+/* RETINA +480 width / +1024px height (TABLET PORTRAIT)
+   ========================================================================== */
+@media
+(only screen and (-webkit-min-device-pixel-ratio: 2)     and (min-width: 30rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-width: 30rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-width: 30rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-width: 30rem),
+only screen and (                min-resolution: 192dpi) and (min-width: 30rem),
+only screen and (                min-resolution: 2dppx)  and (min-width: 30rem))
+and
+(only screen and (-webkit-min-device-pixel-ratio: 2)     and (min-height: 64rem),
+only screen and (   min--moz-device-pixel-ratio: 2)      and (min-height: 64rem),
+only screen and (     -o-min-device-pixel-ratio: 2/1)    and (min-height: 64rem),
+only screen and (        min-device-pixel-ratio: 2)      and (min-height: 64rem),
+only screen and (                min-resolution: 192dpi) and (min-height: 64rem),
+only screen and (                min-resolution: 2dppx)  and (min-height: 64rem)) { 
+ 
+/* GENERAL 
+* --------------------------------------- */
+
+ 
+/* LAYOUT 
+* --------------------------------------- */
+ 
+
+/* EXTERNAL
+* --------------------------------------- */
+ 
+} /*MEDIA
+ ========================================================================== */  
+  
