@@ -29,6 +29,9 @@ header{
 header nav ul li a:hover, #redes li a:hover{
 	color:#35b729;
 }
+#redes li{
+	position: relative;
+}
 header .bt-menu{
 color:rgba(53, 183, 41, 1);
 }
@@ -84,9 +87,7 @@ header nav ul li:hover{
 #sobreMi{
 	padding-top: 4%;
 }
-/*#sobreMi .col-1 h4{
-	padding: 1% 20%;
-}*/
+
 #sobreMi .col-2{
 	margin-top: 3%;
 }
@@ -147,7 +148,7 @@ header nav ul li:hover{
 	background-color:#35b729;
 	opacity:0;
 	-webkit-transition:opacity:0.4s;
-	padding: 20%;
+	padding: 5%;
 }
 #info span, #info a{
 	color: #fff !important;
@@ -167,4 +168,37 @@ header nav ul li:hover{
 	background-color: rgba(0, 0, 0,.95);
 	padding: 1%;
 	margin-top: 2%;
+}
+#mail, #phone{
+  display: block;
+  background-color: rgba(0,0,0,);
+  /*padding: 5px;*/
+  position: absolute;
+  right: 2%;
+  top: 40px;
+  width: 100px;
+  color: white;
+  font-size: .8em; 
+}
+#mail{
+	width: 130px;
+}
+#mail:after, #phone:after{
+  content: "";
+  width: 0;
+  height: 0;
+  border-right: 5px solid transparent;
+  border-bottom: 10px solid rgba(0,0,0,);
+  border-top: 10px solid transparent;
+  position: absolute;
+  bottom: 100%;
+  right: 5px;
+ }
+.menu-fixed{
+	position: fixed !important;
+	z-index:1000;
+	top:0;
+	min-width:100%;
+	width:100%;
+
 }
