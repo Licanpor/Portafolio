@@ -24,5 +24,21 @@ $(document).ready(function(){
 	$('.icon-phone').mouseout(function(){
 		$('#phone').hide();
 	});
+	
+	var posicion = $("#skills").position().top;
+
+	$(window).scroll(function(){
+
+		if($(window).scrollTop() > posicion ){
+
+			$('.skillbar').each(function(){
+						$(this).find('.skillbar-bar').animate({
+							width:$(this).attr('data-percent')
+						},2000);
+					});
+
+			}
+
+	});
 
 });

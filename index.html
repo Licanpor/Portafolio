@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8"> <!-- Me sirve para colocar acentos y otros caracteres especiales -->
-		<meta http-equiv="X-UA-Compatible" content="IE=edge"> <!-- Hace que mi página sea compatible con Internet Explorer -->
-		<!-- VIEWPORT - Cuando estamos hablando de dispositivos móviles, no corresponde al tamaño real de la pantalla en píxeles, sino al espacio que la pantalla está emulando que tiene 
-			- "device-width", que es una medida que hace referencia a la anchura de la pantalla del dispositivo, así que con width=device-width conseguimos que el viewport sea igual a la anchura real de la pantalla del dispositivo, de modo que no se tratará de emular una pantalla mayor de lo que realmente es y veremos los píxeles reales.
-			- Con initial-scale=1 conseguimos que no se haga zoom sobre el documento. Es bien simple, el contenido de la web no se transformará, ni se agrandará, ni se hará menor.-->
+		<meta charset="UTF-8"> 
+		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>Portfolio</title> <!-- Iniciando  -->
-		<link rel="shortcut icon" href=""> <!-- "shortcut icon" nos indicaque es tipo icono, relación -->
+		<title>Liliana Canedo</title> 
+		<link rel="shortcut icon" href="img/icons/sheep.png">
 		<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" media="screen">
 		<link rel="stylesheet" href="css/index.css">
 		<link rel="stylesheet" href="css/fonts.css">
 		<link rel="stylesheet" href="css/queries.css">
 		<link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat|Roboto+Condensed:300,400,700" rel="stylesheet">
+		<link rel="stylesheet" href="css/skills.css">
 	</head>
 	<body >
 		<header id="menu" class="menu-fixed">
@@ -70,7 +68,7 @@
 			<div class="container">
 				<div class="row"> 
 					<div class="col-1 col-sm-12 col-md-6">
-						<h1>DISEÑADORA WEB </h1>
+						<h1>DESARROLLADORA WEB</h1>
 						<h3>FRONT-END</h3>
 						<h4>Emprendedora de ideas, mente creativa, apasionada en hacer que las personas tengan grandes experiencias a través del diseño web y productos tecnológicos.</h4>
 					</div>
@@ -78,8 +76,10 @@
 						<h5 class="bdr-g center-block">SOBRE Mí</h5>
 						<p class="text-justify">Morelia, Michoacán es mi cuna, CDMX mi emprendimiento y mi futuro el Mundo. Soy nómada de nacimiento y el aprendizaje es el alimento de mi mente. 
 						</p>
-						<!-- <p>Creo en el poder de la transformación y en la importancia de reinventar nuestra realidad empezando por nosotros mismos. </p> -->
 						<p class="text-justify">A través del teatro, la música y la danza encontré una medicina y mi necesitad de evolucionar. En la tecnología encontré la herramienta para desarrollar productos que beneficien a las personas, satisfaciendo sus necesidades, expandiendo sus conciencias para construir mejores realciones entre ellas, la tecnología y el planeta.</p>
+						<div class="text-center">
+							<a type="button" href="pdf/CV.LCP.pdf" class="btn btn-success " download="LilianaCanedo.CV">Descarga mi CV</a>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -97,24 +97,50 @@
 					</div>
 				</div>
 				<div class="row">
-					<div class="col-md-12">
-						<h5>HTML, CSS, Bootstrap</h5>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
-							INTERMEDIO
-							</div>
-						</div>
-						<h5>JavaScript, Jquery, Git</h5>
-						<div class="progress">
-							<div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 30%;">
-							BáSICO
-							</div>
-						</div>
-
-						<div class="text-center">
-							<a type="button" href="pdf/CV.LCP.pdf" class="btn btn-success " download="LilianaCanedo.CV">Descarga mi CV</a>
-						</div>
-					</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="skillbar clearfix " data-percent="60%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>HTML</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="60%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>CSS</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="60%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>BOOTSTRAP</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Intermedio</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="40%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>GIT</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Básico</strong></div>
+		                </div>
+		           	</div>
+					<div class="col-sm-12 col-md-6">
+						<div class="skillbar clearfix " data-percent="40%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>JAVASCRIPT</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Básico</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="40%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>JQUERY</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Básico</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="40%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>PHOTOSHOP</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Básico</strong></div>
+		                </div>
+		                <div class="skillbar clearfix " data-percent="40%">
+		                  <div class="skillbar-title" style="background: #35b729;"><span>ILLUSTRATOR</span></div>
+		                  <div class="skillbar-bar" style="background: #86e27e;"></div>
+		                  <div class="skill-bar-percent"><strong>Básico</strong></div>
+		                </div>
+		            </div>
 				</div>
 			</div>
 		</section>
@@ -124,55 +150,139 @@
 					<h5 class="bdr-g-p center-block">MIS PROYECTOS</h5>
 					<div class="col-sm-6 col-md-3">
 						<div class="bg-b">
-							<div class="img-kane"><!-- IMAGEN DE FONDO -->
-								<div id="info">
-									<span><p class="text-uppercase text-center"><b>kane theme</b></p></span>
-									<span><p class=" text-center">css Transitons, Bootstrap y mucha diversión</p></span>
-									<div class=" text-center">
-										<a href="https://lilianacanpor.github.io/34_KaneTheme" target="_blank">VER MáS</a>
+							<div class="thumbnail">
+								<a data-toggle="modal" data-target="#kane"><div class="img-kane"><div class="filtro"></div></div></a>
+							</div>
+							<!-- MODAL -->
+							<div class="modal fade" id="kane" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<div class=" text-center">
+												<h4 class="modal-title" id="myModalLabel">KANE THEME</h4>
+												<a type="button" href="https://lilianacanpor.github.io/34_KaneTheme" target="_blank">ver en acción</a>
+											</div>
+										</div>
+										<div class="modal-body">
+												<img class="img-responsive" src="img/KT.png" alt="">
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
 									</div>
 								</div>
+							</div><!--  /MODAL -->
+							<div id="info">
+								<p class="text-uppercase text-center titulo">kane theme</p>
+								<p class=" text-center">Animaciones, css transitons, desafios con la grid de Bootstrap y muchos colores</p>
+							</div>
+						</div> <!-- /bg-b -->
+					</div><!-- /col -->
+					
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="thumbnail">
+								<a data-toggle="modal" data-target="#bussines"><div class="img-bussines"><div class="filtro"></div></div></a>
+							</div>
+							<!-- MODAL -->
+							<div class="modal fade" id="bussines" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<div class=" text-center">
+												<h4 class="modal-title" id="myModalLabel">USER TESTING</h4>
+												<a type="button" href="https://lilianacanpor.github.io/29_Business/" target="_blank">ver en acción</a>
+											</div>
+										</div>
+										<div class="modal-body">
+												<img class="img-responsive" src="img/.png" alt="">
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div><!--  /MODAL -->
+							<div id="info">
+								<p class="text-uppercase text-center titulo">user testing</p>
+								<p class=" text-center">Estrenando animaciones infinitas con Animate.css y modales con Bootstrap</p>
+							</div>
+						</div><!--  bg-b -->
+					</div><!-- col -->
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="thumbnail">
+								<a data-toggle="modal" data-target="#bicis"><div class="img-bicis"><div class="filtro"></div></div></a>
+							</div>
+							<!-- MODAL -->
+							<div class="modal fade" id="bicis" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<div class=" text-center">
+												<h4 class="modal-title" id="myModalLabel">BICIS LOCAS</h4>
+												<a type="button" href="https://lilianacanpor.github.io/39_DOM_II/" target="_blank">ver en acción</a>
+											</div>
+										</div>
+										<div class="modal-body">
+												<img class="img-responsive" src="img/BS.png" alt="">
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div><!--  /MODAL -->
+							<div id="info">
+								<p class="text-uppercase text-center titulo">bicis locas</p>
+								<p class=" text-center">Un poco de JavaScript para validar que los datos sean correctos</p>
+							</div>
+						</div><!-- /bg-b -->
+					</div><!-- /col -->
+					<div class="col-sm-6 col-md-3">
+						<div class="bg-b">
+							<div class="thumbnail">
+								<div class="img-combo">
+									<a data-toggle="modal" data-target="#combo"><div class="img-combo"><div class="filtro"></div></div></a>
+								</div>
+							</div>
+							<!-- MODAL -->
+							<div class="modal fade" id="combo" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+								<div class="modal-dialog" role="document">
+									<div class="modal-content">
+										<div class="modal-header">
+											<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+												<span aria-hidden="true">&times;</span>
+											</button>
+											<div class="text-center">
+												<h4 class="modal-title" id="myModalLabel">COMBO DE LA REACTIVACIÓN</h4>
+												<a type="button" href="https://www.comboreactivacion.com/" target="_blank">ver en acción</a>
+											</div>
+										</div>
+										<div class="modal-body">
+												<img class="img-responsive" src="img/CR.png" alt="">
+										</div>
+										<div class="modal-footer">
+											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+										</div>
+									</div>
+								</div>
+							</div><!--  /MODAL -->
+							<div id="info">
+								<p class="text-uppercase text-center titulo">combo de la reactivación</p>
+								<p class=" text-center">Ecuador estratégico, rehabilitando la zona afectada por el terremoto de abril 2016</p>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="bg-b">
-							<div class="img-bussines"><!-- IMAGEN DE FONDO -->
-								<div id="info">
-									<span><p class="text-uppercase text-center"><b>user testing</b></p></span>
-									<span><p class=" text-center">De Modales y animaciones infinitas</p></span>
-									<div class=" text-center">
-										<a href="https://lilianacanpor.github.io/29_Business/" target="_blank">VER MáS</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="bg-b">
-							<div class="img-bicis"><!-- IMAGEN DE FONDO -->
-								<div id="info">
-									<span><p class="text-uppercase text-center"><b>bicis locas</b></p></span>
-									<span><p class=" text-center">Un poco de JavaScript para validar que los datos sean correctos</p></span>
-									<div class=" text-center">
-										<a href="https://lilianacanpor.github.io/39_DOM_II/" target="_blank">VER MáS</a>
-									</div>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div class="col-sm-6 col-md-3">
-						<div class="bg-b">
-							<div class="img-combo"><!-- IMAGEN DE FONDO -->
-								<div id="info">
-									<span><p class="text-uppercase text-center"><b>combo de la reactivación</b></p></span>
-									<span><p class=" text-center">Ecuador estratégico, rehabilitando la zona afectada por el terremoto de abril 2016</p></span>
-									<div class=" text-center">
-										<a href="https://www.comboreactivacion.com/" target="_blank">VER MáS</a>
-									</div>
-								</div>
-							</div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -181,9 +291,13 @@
 			<h6> Diseñado por Liliana Canedo, Laboratoria México 2016</h6>
 	 	</footer>
 	 	
-	 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-		<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
+	 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<script src="js/scripts.js"></script>
+		<script src="js/wow.min.js"></script>
+        <script>
+            new WOW().init();
+        </script>
 	</body>
 </html>
