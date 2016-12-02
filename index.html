@@ -4,7 +4,7 @@
 		<meta charset="UTF-8"> 
 		<meta http-equiv="X-UA-Compatible" content="IE=edge"> 
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-		<title>Liliana Canedo</title> 
+		<title>Liliana Canedo | Portafolio</title> 
 		<link rel="shortcut icon" href="img/icons/sheep.png">
 		<link rel="stylesheet" href="libs/bootstrap-3.3.7-dist/css/bootstrap.min.css" media="screen">
 		<link rel="stylesheet" href="css/index.css">
@@ -12,6 +12,7 @@
 		<link rel="stylesheet" href="css/queries.css">
 		<link href="https://fonts.googleapis.com/css?family=Megrim|Montserrat|Roboto+Condensed:300,400,700" rel="stylesheet">
 		<link rel="stylesheet" href="css/skills.css">
+		<link rel="stylesheet" href="libs/animate.css">
 	</head>
 	<body >
 		<header id="menu" class="menu-fixed">
@@ -43,7 +44,10 @@
 								<h4><a href=""><span class="icon-phone"></span></a></h4>
 								<span id="phone" class="text-center">+52 1 55 61 04 00 73</span>
 							</li>
-							<li id="gh"><h4><a href="https://github.com/LilianaCanPor"><span class="icon-github"></span></a></h4></li>
+							<li class="gh">
+								<h4><a href="https://github.com/LilianaCanPor"><span class="icon-github"></span></a></h4>
+								<span id="gh" class="text-center">github.com/LilianaCanPor</span>
+							</li>
 						</ul>
 					</div>
 				</div>
@@ -53,7 +57,7 @@
 			<section id="front">
 				<div class="row bg-img">
 					<div class="col-md-12 text-right">
-						<div class="front-text">
+						<div class=" animated slideInRight front-text">
 							<blockquote class="blockquote-reverse">
 						 		<h3>Gracias a la tecnología el poder individual es mayor que nunca. Una sola persona puede cambiar la industria. Una sola persona puede reinventar la sociedad, los medios o la ciencia.</h3>
 						  		<footer>Franz De Paula</footer>
@@ -78,7 +82,7 @@
 						</p>
 						<p class="text-justify">A través del teatro, la música y la danza encontré una medicina y mi necesitad de evolucionar. En la tecnología encontré la herramienta para desarrollar productos que beneficien a las personas, satisfaciendo sus necesidades, expandiendo sus conciencias para construir mejores realciones entre ellas, la tecnología y el planeta.</p>
 						<div class="text-center">
-							<a type="button" href="pdf/CV.LCP.pdf" class="btn btn-success " download="LilianaCanedo.CV">Descarga mi CV</a>
+							<a type="button" href="pdf/CV.LCP.pdf" class="wow zoomIn btn btn-success" data-wow-delay:"6s" download="LilianaCanedo.CV" >Descarga mi CV</a>
 						</div>
 					</div>
 				</div>
@@ -90,7 +94,7 @@
 				<div class="row">
 					<div class="col-md-12">
 						<h5 class="bdr-g-s center-block">MIS HABILIDADES</h5>
-						<blockquote class="blockquote-reverse">
+						<blockquote class="wow slideInLeft">
 							<h4>Tanto si crees que puedes como que no... tienes razón</h4>
 							<footer>Henry Ford</footer>
 						</blockquote>
@@ -177,7 +181,7 @@
 							</div><!--  /MODAL -->
 							<div id="info">
 								<p class="text-uppercase text-center titulo">kane theme</p>
-								<p class=" text-center">Animaciones, css transitons, desafios con la grid de Bootstrap y muchos colores</p>
+								<p class=" text-center">Animaciones, css transitons y desafios con la grid de Bootstrap</p>
 							</div>
 						</div> <!-- /bg-b -->
 					</div><!-- /col -->
@@ -201,7 +205,7 @@
 											</div>
 										</div>
 										<div class="modal-body">
-												<img class="img-responsive" src="img/.png" alt="">
+												<img class="img-responsive" src="img/BSNS.png" alt="">
 										</div>
 										<div class="modal-footer">
 											<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -279,7 +283,7 @@
 							</div><!--  /MODAL -->
 							<div id="info">
 								<p class="text-uppercase text-center titulo">combo de la reactivación</p>
-								<p class=" text-center">Ecuador estratégico, rehabilitando la zona afectada por el terremoto de abril 2016</p>
+								<p class=" text-center">Ecuador estratégico, rehabilitando la zona afectada por el terremoto de 2016</p>
 							</div>
 						</div>
 					</div>
@@ -295,7 +299,7 @@
 		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js"></script>
 		<script src="libs/bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
 		<script src="js/scripts.js"></script>
-		<script src="js/wow.min.js"></script>
+		<script src="libs/wow/wow.min.js"></script>
         <script>
             new WOW().init();
         </script>

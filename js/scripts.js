@@ -12,6 +12,8 @@ $(document).ready(function(){
 
 	$('#mail').hide();
 	$('#phone').hide();	
+	$('#gh').hide();	
+	
 	$('.icon-envelop').mouseenter(function(){
 		$('#mail').show(200);
 	});
@@ -24,12 +26,19 @@ $(document).ready(function(){
 	$('.icon-phone').mouseout(function(){
 		$('#phone').hide();
 	});
+	$('.icon-github').mouseenter(function(){
+		$('#gh').show(200);
+	});
+	$('.icon-github').mouseout(function(){
+		$('#gh').hide();
+	});
+
 	
 	var posicion = $("#skills").position().top;
 
 	$(window).scroll(function(){
 
-		if($(window).scrollTop() > posicion ){
+		if($(window).scrollTop() >= posicion ){
 
 			$('.skillbar').each(function(){
 						$(this).find('.skillbar-bar').animate({
